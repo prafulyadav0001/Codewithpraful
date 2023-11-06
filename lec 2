@@ -1,0 +1,50 @@
+public class loops {
+    public static void main(String[] args) {
+//        loops
+//         for
+        for(int i=1;i<=5;i++){
+            System.out.println("Bhupendar jogi");
+        }
+//        while
+        System.out.println("-------------");
+        int t=5;
+        while(t-->0){
+            System.out.println("java classes");
+        }
+        System.out.println("-------------");
+//        for each
+    int arr[]={1,2,3,4,5};
+        for (int r : arr) {
+            System.out.println(r);
+        }
+        System.out.println("_______________");
+//        do while
+        int n=1;
+        do{
+            System.out.println("hii");
+            n=n+1;
+        }
+        while (n<5);
+
+//       Patterns
+
+
+//      *
+//      **
+//      ***
+//      ****
+
+int s=0;
+        for(int line =1; line<=10;line++){
+            for (int star=1;star<=line;star++){
+                s++;
+                System.out.print("* "+s);
+            }
+            System.out.println();
+        }
+
+
+
+
+    }
+}
