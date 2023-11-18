@@ -1,0 +1,76 @@
+public class Basics {
+    public static void main(String[] args){
+//        Java TYPED :::::::::::>
+
+
+//    System.out.print("Hello world\n");
+//        System.out.print("Hello\nworld");
+
+
+//        System.out.println("Hello world");
+//        System.out.println("Hello world");
+
+//        Variables in JAVA...
+//        Literals
+//          1 , 2 , 3 , @, #,!
+//        Identifires
+//        int a =12;
+//        String d="praful";
+//        class abs{
+//            void  pr(int a){
+//
+//            }
+//        }
+//        24690 nahi hai...
+//        variables
+//        int a =12;
+//        String d="praful";
+
+
+//        int a=50;
+//        int b=94;
+//        int c=a+b;
+//        System.out.println(c);
+
+//        DATA TYPES:::::> lower case se start hoga !!
+//        1 Primitive (8)           2. Non-Primitive
+//        byte size 1byte:: 8bit
+//        byte a=123;
+//        System.out.println(" byte :"+a);
+//        short  size 2byte
+//        short b=122;
+//        System.out.println(" short :"+b);
+
+//        char size 2byte
+//        cb
+//        char s='c';
+//        System.out.println(s);
+//        bool 1by
+//        boolean ab=true;
+//         int 4by
+//        long 8y
+//        double 8by
+//        float 4by
+
+// type consersion
+//        1) data compatablity
+//        2) ds > re
+
+//        int a=2;
+//        long b=23;
+//        b=a;
+//        System.out.println(b);
+
+//        char c ='b';
+//        int n = c;
+//        System.out.println(n);
+
+        float w =  1002;
+        double t=100.2;
+
+
+        System.out.println((int) w+" "+ (int) t);
+
+
+    }
+}
